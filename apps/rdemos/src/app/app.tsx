@@ -1,12 +1,10 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.scss';
-
-import NxWelcome from './nx-welcome';
+import ProfileCard from './components/profile-card';
 
 export function App() {
   return (
     <div>
-      <NxWelcome title="rdemos" />
+      <ProfileCard />
     </div>
   );
 }

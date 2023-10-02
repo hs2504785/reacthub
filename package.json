@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nx serve --project rdemos"
+    "start": "nx serve --project rdemos",
+    "pizzaapp": "nx serve --project pizza-app"
   },
   "private": true,
   "dependencies": {
